@@ -17,19 +17,20 @@
 
 
   ## Description
-  A easy to use content management system that that allows the user to add, store and delete employees. 
-  This application uses MySql, Node.js and Inquirer.
+  This is app is the back end for an e-commerce site and it was built using modified started code. The app uses Express.js API to use Sequelize to interact with a MySQL database.
+  
 
 
   ## Installation
 
-  *Please clone the github repository and then run NMP I*
+  *Please clone the github repository and then run NMP I.*
+
  
 
   ## Usage
   Open an integrated terminal and run node server.js. 
-  Now that the app is running you can select from the options presented in the menu list. 
-  When you are finished using the app simply select 'Exit'.
+  You will then need to populate the data base by entering NPM run seed.
+  Next run NPM start. You will now be connected to the server and listening to the local host and able to start testing.
 
   ## License
  This application has the following license:
@@ -52,14 +53,29 @@ https://github.com/marcmalliate/E-commerce-Website
 
 ### Screenshot of application:
 
-![This is the result of the Employee Tracker](./assets/1.png)
+GET request for all categories:
 
-Adding a New employee:
+![This is the result of the E-commerce Back End](./assets/1.png)
 
-![This is the result of the Employee Tracker](./assets/2.png)
+POST request for a new category:
 
+![This is the result of the E-commerce Back End](./assets/2.png)
+
+PUT request to update an existing category:
+
+![This is the result of the E-commerce Back End](./assets/3.png)
+
+DELETE request to delete an existing category:
+![This is the result of the E-commerce Back End](./assets/4.png)
+
+For a more detailed demonstration please watch the 2 videos below
 
 ### Video demonstration of application:
-https://watch.screencastify.com/v/IOeTrNdCPLfnCrlNW2kO
+Please note, this video demonstration is split into 2 parts.
+
+https://watch.screencastify.com/v/ad4TkvXm0I62SObeQRCm
+
+https://watch.screencastify.com/v/lpdOeKFeKq2lUM17nAia
+
 
 © *2021 Marc Malliate - Professional Readme Generator*
